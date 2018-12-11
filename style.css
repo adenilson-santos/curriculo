@@ -19,6 +19,14 @@ a {
   flex-shrink: 1;
 }
 
+#att-date {
+  position: fixed;
+  left: 5px;
+  top: 5px;
+  color: black;
+  font-weight: 700;
+}
+
 body {
   font-family: "Titillium Web", sans-serif;
   text-rendering: optimizeLegibility !important;
@@ -28,7 +36,7 @@ body {
 }
 
 .main-wrapper {
-  max-width: 1000px;
+  width: 1000px;
   padding: 10px;
   box-shadow: 0px 0px 1px 1px black;
 }
@@ -127,6 +135,11 @@ header h1 {
 }
 
 @media only screen and (max-width: 1070px) {
+  .main-wrapper {
+    max-width: 1000px;
+    width: auto;
+  }
+
   .social {
     align-self: center;
     margin-right: 0;
