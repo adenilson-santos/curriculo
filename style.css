@@ -173,6 +173,10 @@ header h1 {
     padding: 1px;
   }
 
+  #print {
+    display: none;
+  }
+
   .social {
     align-self: center;
     margin-right: 0;
