@@ -219,6 +219,10 @@ header h1 {
     border: none;
   }
 
+  .developer {
+    padding: 100px;
+  }
+
   .main-wrapper {
     box-shadow: none;
   }
