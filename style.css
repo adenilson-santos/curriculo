@@ -35,6 +35,10 @@ a {
   font-weight: 700;
 }
 
+footer {
+  display: none;
+}
+
 body {
   font-family: "Titillium Web", sans-serif;
   text-rendering: optimizeLegibility !important;
@@ -217,5 +221,10 @@ header h1 {
 
   .main-wrapper {
     box-shadow: none;
+  }
+
+  footer {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
   }
 }
